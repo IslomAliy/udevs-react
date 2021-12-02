@@ -1,0 +1,30 @@
+.filter-button {
+    display: inline-block;
+    font-size: 16px;
+    padding: 14px 18px;
+    border: 1px solid #28a745;
+    background-color: transparent;
+    cursor: pointer;
+    color: #28a745;
+}
+
+.filter-button:first-child {
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+}
+
+.filter-button:last-child {
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px;
+}
+
+
+.active {
+    color: #fff;
+    background-color: #117a8b;
+    border-color: #10707f;
+}
+
+
+
+

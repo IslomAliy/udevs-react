@@ -1,0 +1,17 @@
+.app-header {
+    display: flex;
+    /* gap: 250px; */
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.desc {
+    align-self: end;
+    font-weight: 500;
+    color: #828587;
+}
